@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/media/radio-button-checked.1a84a9c1.svg"
   },
   {
-    "revision": "78f86691177039c7321b",
+    "revision": "0a6e9ffb38b3240a1b34",
     "url": "/cloud-sample-app-react-foxy/static/css/main.d05ea66d.chunk.css"
   },
   {
@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/media/our-story.6b72dc24.jpg"
   },
   {
-    "revision": "392cb2e0295e00036c634860a8f0cbad",
-    "url": "/cloud-sample-app-react-foxy/static/media/checkbox-checked.392cb2e0.svg"
-  },
-  {
     "revision": "abf2d2b04c7833a4fedc9c07bdb5a642",
     "url": "/cloud-sample-app-react-foxy/static/media/checkbox-unchecked.abf2d2b0.svg"
+  },
+  {
+    "revision": "392cb2e0295e00036c634860a8f0cbad",
+    "url": "/cloud-sample-app-react-foxy/static/media/checkbox-checked.392cb2e0.svg"
   },
   {
     "revision": "8c6533e10367d0901e362f7d295e03b9",
     "url": "/cloud-sample-app-react-foxy/static/media/radio-button.8c6533e1.svg"
   },
   {
-    "revision": "78f86691177039c7321b",
-    "url": "/cloud-sample-app-react-foxy/static/js/main.78f86691.chunk.js"
+    "revision": "0a6e9ffb38b3240a1b34",
+    "url": "/cloud-sample-app-react-foxy/static/js/main.0a6e9ffb.chunk.js"
   },
   {
     "revision": "b2622e38f246209fb933e8b8a6ee76ed",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.1b9af651.ttf"
   },
   {
-    "revision": "afbcb254ea3011f59a72ad276d3954ff",
+    "revision": "c093e19cdaf24358005cbfbaaca0afd6",
     "url": "/cloud-sample-app-react-foxy/index.html"
   }
 ];
