@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/media/radio-button-checked.1a84a9c1.svg"
   },
   {
-    "revision": "0a6e9ffb38b3240a1b34",
+    "revision": "9326db3ef1b394bedf8a",
     "url": "/cloud-sample-app-react-foxy/static/css/main.d05ea66d.chunk.css"
   },
   {
@@ -40,12 +40,8 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/media/radio-button.8c6533e1.svg"
   },
   {
-    "revision": "0a6e9ffb38b3240a1b34",
-    "url": "/cloud-sample-app-react-foxy/static/js/main.0a6e9ffb.chunk.js"
-  },
-  {
-    "revision": "ccdb76a033026dbdc3f08c50f4a5263f",
-    "url": "/cloud-sample-app-react-foxy/static/media/SourceSansPro-Light.ccdb76a0.woff"
+    "revision": "9326db3ef1b394bedf8a",
+    "url": "/cloud-sample-app-react-foxy/static/js/main.9326db3e.chunk.js"
   },
   {
     "revision": "b2622e38f246209fb933e8b8a6ee76ed",
@@ -60,23 +56,27 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/media/SourceSansPro-Bold.54f926c7.woff"
   },
   {
-    "revision": "1b9af651cbf6b3f133faf2bede0e5266",
-    "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.1b9af651.ttf"
-  },
-  {
     "revision": "4611bc4557599035d912ff07366ad002",
     "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.4611bc45.eot"
+  },
+  {
+    "revision": "ccdb76a033026dbdc3f08c50f4a5263f",
+    "url": "/cloud-sample-app-react-foxy/static/media/SourceSansPro-Light.ccdb76a0.woff"
   },
   {
     "revision": "6823218d348f1ba4e035908b672c745a",
     "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.6823218d.svg"
   },
   {
+    "revision": "1b9af651cbf6b3f133faf2bede0e5266",
+    "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.1b9af651.ttf"
+  },
+  {
     "revision": "14fb01c406a39aab06275f5578c7316f",
     "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.14fb01c4.woff"
   },
   {
-    "revision": "159188a4a82c454fee46990d3954ba5b",
+    "revision": "3849a85280c4a1595de292a6cd21489d",
     "url": "/cloud-sample-app-react-foxy/index.html"
   }
 ];
