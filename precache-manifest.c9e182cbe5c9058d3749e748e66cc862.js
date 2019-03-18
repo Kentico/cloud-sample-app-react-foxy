@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/js/main.0a6e9ffb.chunk.js"
   },
   {
-    "revision": "b2622e38f246209fb933e8b8a6ee76ed",
-    "url": "/cloud-sample-app-react-foxy/static/media/PTSerif-Bold.b2622e38.woff"
-  },
-  {
     "revision": "ccdb76a033026dbdc3f08c50f4a5263f",
     "url": "/cloud-sample-app-react-foxy/static/media/SourceSansPro-Light.ccdb76a0.woff"
+  },
+  {
+    "revision": "b2622e38f246209fb933e8b8a6ee76ed",
+    "url": "/cloud-sample-app-react-foxy/static/media/PTSerif-Bold.b2622e38.woff"
   },
   {
     "revision": "fdc0354668675e460e18d8e6b880e634",
@@ -58,6 +58,10 @@ self.__precacheManifest = [
   {
     "revision": "54f926c7e2cffb824547c75bc5ac0b5e",
     "url": "/cloud-sample-app-react-foxy/static/media/SourceSansPro-Bold.54f926c7.woff"
+  },
+  {
+    "revision": "1b9af651cbf6b3f133faf2bede0e5266",
+    "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.1b9af651.ttf"
   },
   {
     "revision": "4611bc4557599035d912ff07366ad002",
@@ -72,11 +76,7 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.14fb01c4.woff"
   },
   {
-    "revision": "1b9af651cbf6b3f133faf2bede0e5266",
-    "url": "/cloud-sample-app-react-foxy/static/media/Core-icons.1b9af651.ttf"
-  },
-  {
-    "revision": "c093e19cdaf24358005cbfbaaca0afd6",
+    "revision": "159188a4a82c454fee46990d3954ba5b",
     "url": "/cloud-sample-app-react-foxy/index.html"
   }
 ];
