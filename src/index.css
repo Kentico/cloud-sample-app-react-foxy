@@ -6173,3 +6173,13 @@ body {
 .application-content > div:first-child {
   display: block !important;
 }
+
+.buy-button {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+}
+
+.buy-button a {
+  text-decoration: none;
+}

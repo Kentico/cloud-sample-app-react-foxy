@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Link from '../Components/LowerCaseUrlLink';
-import { resolveContentLink } from '../Utilities/ContentLinks';
 import { CoffeeStore } from '../Stores/Coffee';
 import { translate } from 'react-translate';
 
@@ -66,15 +64,19 @@ class Coffees extends Component {
     };
 
     let coffees = this.state.coffees.filter(filter).map((coffee, index) => {
-      let price =
-        coffee.price.value !== null
-          ? formatPrice(coffee.price.value, this.props.language)
-          : this.props.t('noPriceValue');
+      let id = coffee.system.id;
+      let country = coffee.country.value;
+      let price = coffee.price.value;
+      let formattedPrice = formatPrice(coffee.price.value, this.props.language);
 
       let name =
         coffee.productName.value.trim().length > 0
           ? coffee.productName.value
           : this.props.t('noNameValue');
+
+      let buyUrl = `https://dancing-goat.foxycart.com/cart?name=${name}&price=${price}&id=${id}&image=${
+        coffee.image.value[0].url
+      }`;
 
       let imageLink =
         coffee.image.value[0] !== undefined ? (
@@ -94,23 +96,20 @@ class Coffees extends Component {
         );
 
       let status = renderProductStatus(coffee.productStatus);
-      let link = resolveContentLink(
-        { type: 'coffee', urlSlug: coffee.urlPattern.value },
-        this.props.language
-      );
 
       return (
         <div className="col-md-6 col-lg-4" key={index}>
           <article className="product-tile">
-            <Link to={link}>
-              <h1 className="product-heading">{name}</h1>
-              {status}
-              <figure className="product-tile-image">{imageLink}</figure>
-              <div className="product-tile-info">
-                <span className="product-tile-price">{price}</span>
-              </div>
-            </Link>
+            <h1 className="product-heading">{name}</h1>
+            {status}
+            <figure className="product-tile-image">{imageLink}</figure>
+            <div className="product-tile-info">
+              <span className="product-tile-price">{formattedPrice}</span>
+            </div>
           </article>
+          <button className="buy-button btn">
+            <a href={buyUrl}>Buy {country}</a>
+          </button>
         </div>
       );
     });

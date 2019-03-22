@@ -82,6 +82,15 @@ const Header = props => {
                     Español
                   </a>
                 </li>
+                <li>
+                  <a href="https://dancing-goat.foxycart.com/cart?cart=view">
+                    <span role="img" aria-label="cart">
+                      🛒
+                    </span>
+                    <span class="fa fa-shopping-cart" />
+                    Cart (<span data-fc-id="minicart-quantity">1</span>)
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
